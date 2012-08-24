@@ -102,7 +102,9 @@ class DatasiftCompileCommand(DatasiftCommand):
             if not datasift_user:
                 return self._result(False, '%s: Failed to create the Datasift user object!' % (__name__))
             else:
-                stream_hash = datasift_user.create_definition(data['csdl']).get_hash()
+                definition = datasift_user.create_definition(data['csdl'])
+                definition.validate()
+                stream_hash = definition.get_hash()
                 return self._result(True, '%s: CSDL compiled successfully, hash %s has been copied into your clipboard.' % (__name__, stream_hash), { 'clipboard': stream_hash })
         except datasift.InvalidDataError as e:
             return self._result(False, str(e))
