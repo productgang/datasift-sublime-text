@@ -1,0 +1,9 @@
+[
+	{
+		"id": "tools",
+		"children": [
+			{"id": "build"},
+			{"command": "datasift_compile"}
+		]
+	}
+]
