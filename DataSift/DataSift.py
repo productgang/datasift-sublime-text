@@ -16,8 +16,6 @@ class DatasiftCompileCommand(sublime_plugin.TextCommand):
 			'api_key': api_key
 		})
 		try:
-			print validate_endpoint%options_encoded
-			http_file = urllib2.urlopen(validate_endpoint%options_encoded)
 			http_file = urllib2.urlopen(compile_endpoint%options_encoded)
 			result = json.loads(http_file.read())
 			sublime.set_clipboard(result['hash'])
