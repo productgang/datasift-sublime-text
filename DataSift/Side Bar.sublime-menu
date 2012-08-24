@@ -1,0 +1,11 @@
+[
+	{ "caption": "-" },
+	{
+		"caption": "DataSift",
+		"children": [
+			{"command": "datasift_validate", "caption": "Validate CSDL"},
+			{"command": "datasift_compile", "caption": "Compile CSDL"},
+			{"command": "datasift_consume_sample", "caption": "Consume sample interactions"}
+		]
+	}
+]
