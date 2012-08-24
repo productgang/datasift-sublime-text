@@ -3,6 +3,7 @@
 		"id": "tools",
 		"children": [
 			{"id": "build"},
+			{"command": "datasift_validate"},
 			{"command": "datasift_compile"}
 		]
 	}

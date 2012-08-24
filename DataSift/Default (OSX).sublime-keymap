@@ -1,5 +1,8 @@
 [
 	{
+		"keys": ["super+shift+v"], "command": "datasift_validate"
+	},
+	{
 		"keys": ["super+shift+c"], "command": "datasift_compile"
 	}
 ]
