@@ -1,3 +1,0 @@
-[submodule "DataSift/lib"]
-	path = DataSift/lib
-	url = git@github.com:datasift/datasift-python.git
