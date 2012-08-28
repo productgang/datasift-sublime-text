@@ -14,7 +14,7 @@
 			<key>comment</key>
 			<string>Interaction targets</string>
 			<key>match</key>
-			<string>interaction\.(content|geo|link|sample|source|title|type)</string>
+			<string>\binteraction\.(content|geo|link|sample|source|title|type)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -22,7 +22,7 @@
 			<key>comment</key>
 			<string>Interaction author targets</string>
 			<key>match</key>
-			<string>interaction\.author\.(avatar|id|link|name|username)</string>
+			<string>\binteraction\.author\.(avatar|id|link|name|username)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -30,7 +30,7 @@
 			<key>comment</key>
 			<string>2channel targets</string>
 			<key>match</key>
-			<string>2ch\.(author\.name|content|contenttype|link|thread|title|type)</string>
+			<string>\b2ch\.(author\.name|content|contenttype|link|thread|title|type)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -38,7 +38,7 @@
 			<key>comment</key>
 			<string>Amazon targets</string>
 			<key>match</key>
-			<string>amazon\.(author\.link|author\.name|content|contenttype|link|thread|title|type)</string>
+			<string>\bamazon\.(author\.link|author\.name|content|contenttype|link|thread|title|type)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -46,7 +46,7 @@
 			<key>comment</key>
 			<string>Blog targets</string>
 			<key>match</key>
-			<string>blog\.(author\.avatar|author\.link|author\.name|author\.username|content|contenttype|domain|link|post\.link|post\.title|title|type)</string>
+			<string>\bblog\.(author\.avatar|author\.link|author\.name|author\.username|content|contenttype|domain|link|post\.link|post\.title|title|type)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -54,7 +54,7 @@
 			<key>comment</key>
 			<string>Board targets</string>
 			<key>match</key>
-			<string>board\.(author\.age|author\.avatar|author\.gender|author\.link|author\.location|author\.name|author\.registered|author\.signature|author\.username|content|contenttype|domain|link|thread|title|type)</string>
+			<string>\bboard\.(author\.age|author\.avatar|author\.gender|author\.link|author\.location|author\.name|author\.registered|author\.signature|author\.username|content|contenttype|domain|link|thread|title|type)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -62,7 +62,7 @@
 			<key>comment</key>
 			<string>DailyMotion targets</string>
 			<key>match</key>
-			<string>dailymotion\.(author\.link|author\.username|category|content|contenttype|duration|tags|thumbnail|title|videolink)</string>
+			<string>\bdailymotion\.(author\.link|author\.username|category|content|contenttype|duration|tags|thumbnail|title|videolink)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -70,7 +70,7 @@
 			<key>comment</key>
 			<string>Facebook targets</string>
 			<key>match</key>
-			<string>facebook\.(application|author\.avatar|author\.id|author\.link|author\.name|caption|description|likes\.counts|likes\.ids|likes\.names|link|message|name|og\.by|og\.length|og\.location|og\.photos|og\.title|og\.type|source|to\.ids|to\.names|type)</string>
+			<string>\bfacebook\.(application|author\.avatar|author\.id|author\.link|author\.name|caption|description|likes\.counts|likes\.ids|likes\.names|link|message|name|og\.by|og\.length|og\.location|og\.photos|og\.title|og\.type|source|to\.ids|to\.names|type)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -78,7 +78,7 @@
 			<key>comment</key>
 			<string>Flickr targets</string>
 			<key>match</key>
-			<string>flickr\.(author\.link|author\.name|author\.username|content|contenttype|link|thread|title|type)</string>
+			<string>\bflickr\.(author\.link|author\.name|author\.username|content|contenttype|link|thread|title|type)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -86,7 +86,7 @@
 			<key>comment</key>
 			<string>IMDb targets</string>
 			<key>match</key>
-			<string>imdb\.(author\.link|author\.name|content|contenttype|link|thread|title|type)</string>
+			<string>\bimdb\.(author\.link|author\.name|content|contenttype|link|thread|title|type)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -94,7 +94,7 @@
 			<key>comment</key>
 			<string>Newscred targets</string>
 			<key>match</key>
-			<string>newscred\.(article\.authors|article\.category|article\.content|article\.domain|article\.title|article\.topics|image\.attribution\.link|image\.attribution\.text|image\.caption|source\.domain|type|video\.caption|video\.category|video\.domain|video\.title|video\.topics)</string>
+			<string>\bnewscred\.(article\.authors|article\.category|article\.content|article\.domain|article\.title|article\.topics|image\.attribution\.link|image\.attribution\.text|image\.caption|source\.domain|type|video\.caption|video\.category|video\.domain|video\.title|video\.topics)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -102,7 +102,7 @@
 			<key>comment</key>
 			<string>Reddit targets</string>
 			<key>match</key>
-			<string>reddit\.(author\.link|author\.name|content|contenttype|link|thread|title|type)</string>
+			<string>\breddit\.(author\.link|author\.name|content|contenttype|link|thread|title|type)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -110,7 +110,7 @@
 			<key>comment</key>
 			<string>Topix targets</string>
 			<key>match</key>
-			<string>topix\.(author\.location|author\.name|content|contenttype|link|thread|title|type)</string>
+			<string>\btopix\.(author\.location|author\.name|content|contenttype|link|thread|title|type)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -118,7 +118,7 @@
 			<key>comment</key>
 			<string>Twitter: Tweet targets</string>
 			<key>match</key>
-			<string>twitter\.(domains|geo|in_reply_to_screenname|links|mentions|source|status|text)</string>
+			<string>\btwitter\.(domains|geo|in_reply_to_screenname|links|mentions|source|status|text)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -126,7 +126,7 @@
 			<key>comment</key>
 			<string>Twitter: User targets</string>
 			<key>match</key>
-			<string>twitter\.user\.(description|followers_count|follower_ratio|friends_count|id|lang|listed_count|location|name|profile_age|screen_name|statuses_count|time_zone|url|verified)</string>
+			<string>\btwitter\.user\.(description|followers_count|follower_ratio|friends_count|id|lang|listed_count|location|name|profile_age|screen_name|statuses_count|time_zone|url|verified)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -134,7 +134,7 @@
 			<key>comment</key>
 			<string>Twitter: Place targets</string>
 			<key>match</key>
-			<string>twitter\.place\.(attributes|country|country_code|full_name|name|place_type|url)</string>
+			<string>\btwitter\.place\.(attributes|country|country_code|full_name|name|place_type|url)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -142,7 +142,7 @@
 			<key>comment</key>
 			<string>Twitter: Retweet targets</string>
 			<key>match</key>
-			<string>twitter\.retweet\.(count|domains|elapsed|links|mentions|source|text)</string>
+			<string>\btwitter\.retweet\.(count|domains|elapsed|links|mentions|source|text)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -150,7 +150,7 @@
 			<key>comment</key>
 			<string>Twitter: Retweet User targets</string>
 			<key>match</key>
-			<string>twitter\.retweet\.user\.(description|followers_count|follower_ratio|friends_count|id|lang|listed_count|location|name|profile_age|screen_name|statuses_count|time_zone|url|verified)</string>
+			<string>\btwitter\.retweet\.user\.(description|followers_count|follower_ratio|friends_count|id|lang|listed_count|location|name|profile_age|screen_name|statuses_count|time_zone|url|verified)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -158,7 +158,7 @@
 			<key>comment</key>
 			<string>Twitter: Retweeted targets</string>
 			<key>match</key>
-			<string>twitter\.retweeted\.id</string>
+			<string>\btwitter\.retweeted\.id\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -166,7 +166,7 @@
 			<key>comment</key>
 			<string>Twitter: Retweeted Place targets</string>
 			<key>match</key>
-			<string>twitter\.retweeted\.place\.(attributes|country|country_code|full_name|name|place_type|url)</string>
+			<string>\btwitter\.retweeted\.place\.(attributes|country|country_code|full_name|name|place_type|url)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -174,7 +174,7 @@
 			<key>comment</key>
 			<string>Twitter: Retweeted User targets</string>
 			<key>match</key>
-			<string>twitter\.retweeted\.user\.(description|followers_count|follower_ratio|friends_count|id|lang|listed_count|location|name|profile_age|screen_name|statuses_count|time_zone|url|verified)</string>
+			<string>\btwitter\.retweeted\.user\.(description|followers_count|follower_ratio|friends_count|id|lang|listed_count|location|name|profile_age|screen_name|statuses_count|time_zone|url|verified)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -182,7 +182,7 @@
 			<key>comment</key>
 			<string>Video targets</string>
 			<key>match</key>
-			<string>video\.(author\.avatar|author\.link|author\.name|author\.username|category|commentslink|content|contenttype|domain|duration|tags|thumbnail|title|type|videolink)</string>
+			<string>\bvideo\.(author\.avatar|author\.link|author\.name|author\.username|category|commentslink|content|contenttype|domain|duration|tags|thumbnail|title|type|videolink)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -190,7 +190,7 @@
 			<key>comment</key>
 			<string>Wikipedia targets</string>
 			<key>match</key>
-			<string>wikipedia\.(author\.contributions|author\.talk|author\.username|body|categories|changetype|diff\.changes\.added|diff\.changes\.removed|diff\.from|diff\.to|externallinks|images|namespace|newlen|ns|oldlen|pageid|parentid|title)</string>
+			<string>\bwikipedia\.(author\.contributions|author\.talk|author\.username|body|categories|changetype|diff\.changes\.added|diff\.changes\.removed|diff\.from|diff\.to|externallinks|images|namespace|newlen|ns|oldlen|pageid|parentid|title)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -198,7 +198,7 @@
 			<key>comment</key>
 			<string>YouTube targets</string>
 			<key>match</key>
-			<string>youtube\.(author\.link|author\.name|category|commentslink|content|contenttype|duration|tags|thumbnail|title|type|videolink)</string>
+			<string>\byoutube\.(author\.link|author\.name|category|commentslink|content|contenttype|duration|tags|thumbnail|title|type|videolink)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
@@ -206,7 +206,7 @@
 			<key>comment</key>
 			<string>Case sensitive Operators</string>
 			<key>match</key>
-			<string>(?i)(cs )?(contains|substr|contains_any|contains_near|\=\=|\!\=)</string>
+			<string>\b(?i)(cs )?(contains|substr|contains_any|contains_near|\=\=|\!\=)\b</string>
 			<key>name</key>
 			<string>keyword.operator.source.operators</string>
 		</dict>
@@ -214,7 +214,7 @@
 			<key>comment</key>
 			<string>Operators</string>
 			<key>match</key>
-			<string>(?i)(exists|in|\&gt;|\&gt;\=|\&lt;|\&lt;\=|regex_partial|regex_exact|geo_box|geo_radius|geo_polygon|or|and)</string>
+			<string>\b(?i)(exists|not|in|\&gt;|\&gt;\=|\&lt;|\&lt;\=|regex_partial|regex_exact|geo_box|geo_radius|geo_polygon|or|and)\b</string>
 			<key>name</key>
 			<string>keyword.operator.source.operators</string>
 		</dict>
@@ -222,7 +222,7 @@
 			<key>comment</key>
 			<string>Controls</string>
 			<key>match</key>
-			<string>(?i)(tag|return|stream)</string>
+			<string>\b(?i)(tag|return|stream)\b</string>
 			<key>name</key>
 			<string>keyword.control.source.operators</string>
 		</dict>
