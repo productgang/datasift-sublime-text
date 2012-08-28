@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>csdl</string>
+	</array>
+	<key>name</key>
+	<string>DataSift CSDL</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Interaction targets</string>
+			<key>match</key>
+			<string>interaction\.(content|geo|link|sample|source|title|type)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Interaction author targets</string>
+			<key>match</key>
+			<string>interaction\.author\.(avatar|id|link|name|username)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>2channel targets</string>
+			<key>match</key>
+			<string>2ch\.(author\.name|content|contenttype|link|thread|title|type)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Amazon targets</string>
+			<key>match</key>
+			<string>amazon\.(author\.link|author\.name|content|contenttype|link|thread|title|type)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Blog targets</string>
+			<key>match</key>
+			<string>blog\.(author\.avatar|author\.link|author\.name|author\.username|content|contenttype|domain|link|post\.link|post\.title|title|type)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Board targets</string>
+			<key>match</key>
+			<string>board\.(author\.age|author\.avatar|author\.gender|author\.link|author\.location|author\.name|author\.registered|author\.signature|author\.username|content|contenttype|domain|link|thread|title|type)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>DailyMotion targets</string>
+			<key>match</key>
+			<string>dailymotion\.(author\.link|author\.username|category|content|contenttype|duration|tags|thumbnail|title|videolink)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Facebook targets</string>
+			<key>match</key>
+			<string>facebook\.(application|author\.avatar|author\.id|author\.link|author\.name|caption|description|likes\.counts|likes\.ids|likes\.names|link|message|name|og\.by|og\.length|og\.location|og\.photos|og\.title|og\.type|source|to\.ids|to\.names|type)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Flickr targets</string>
+			<key>match</key>
+			<string>flickr\.(author\.link|author\.name|author\.username|content|contenttype|link|thread|title|type)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>IMDb targets</string>
+			<key>match</key>
+			<string>imdb\.(author\.link|author\.name|content|contenttype|link|thread|title|type)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Newscred targets</string>
+			<key>match</key>
+			<string>newscred\.(article\.authors|article\.category|article\.content|article\.domain|article\.title|article\.topics|image\.attribution\.link|image\.attribution\.text|image\.caption|source\.domain|type|video\.caption|video\.category|video\.domain|video\.title|video\.topics)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Reddit targets</string>
+			<key>match</key>
+			<string>reddit\.(author\.link|author\.name|content|contenttype|link|thread|title|type)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Topix targets</string>
+			<key>match</key>
+			<string>topix\.(author\.location|author\.name|content|contenttype|link|thread|title|type)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Twitter: Tweet targets</string>
+			<key>match</key>
+			<string>twitter\.(domains|geo|in_reply_to_screenname|links|mentions|source|status|text)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Twitter: User targets</string>
+			<key>match</key>
+			<string>twitter\.user\.(description|followers_count|follower_ratio|friends_count|id|lang|listed_count|location|name|profile_age|screen_name|statuses_count|time_zone|url|verified)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Twitter: Place targets</string>
+			<key>match</key>
+			<string>twitter\.place\.(attributes|country|country_code|full_name|name|place_type|url)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Twitter: Retweet targets</string>
+			<key>match</key>
+			<string>twitter\.retweet\.(count|domains|elapsed|links|mentions|source|text)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Twitter: Retweet User targets</string>
+			<key>match</key>
+			<string>twitter\.retweet\.user\.(description|followers_count|follower_ratio|friends_count|id|lang|listed_count|location|name|profile_age|screen_name|statuses_count|time_zone|url|verified)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Twitter: Retweeted targets</string>
+			<key>match</key>
+			<string>twitter\.retweeted\.id</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Twitter: Retweeted Place targets</string>
+			<key>match</key>
+			<string>twitter\.retweeted\.place\.(attributes|country|country_code|full_name|name|place_type|url)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Twitter: Retweeted User targets</string>
+			<key>match</key>
+			<string>twitter\.retweeted\.user\.(description|followers_count|follower_ratio|friends_count|id|lang|listed_count|location|name|profile_age|screen_name|statuses_count|time_zone|url|verified)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Video targets</string>
+			<key>match</key>
+			<string>video\.(author\.avatar|author\.link|author\.name|author\.username|category|commentslink|content|contenttype|domain|duration|tags|thumbnail|title|type|videolink)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Wikipedia targets</string>
+			<key>match</key>
+			<string>wikipedia\.(author\.contributions|author\.talk|author\.username|body|categories|changetype|diff\.changes\.added|diff\.changes\.removed|diff\.from|diff\.to|externallinks|images|namespace|newlen|ns|oldlen|pageid|parentid|title)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>YouTube targets</string>
+			<key>match</key>
+			<string>youtube\.(author\.link|author\.name|category|commentslink|content|contenttype|duration|tags|thumbnail|title|type|videolink)</string>
+			<key>name</key>
+			<string>variable.language.source.target</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Case sensitive Operators</string>
+			<key>match</key>
+			<string>(?i)(cs )?(contains|substr|contains_any|contains_near|\=\=|\!\=)</string>
+			<key>name</key>
+			<string>keyword.operator.source.operators</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Operators</string>
+			<key>match</key>
+			<string>(?i)(exists|in|\&gt;|\&gt;\=|\&lt;|\&lt;\=|regex_partial|regex_exact|geo_box|geo_radius|geo_polygon|or|and)</string>
+			<key>name</key>
+			<string>keyword.operator.source.operators</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Controls</string>
+			<key>match</key>
+			<string>(?i)(tag|return|stream)</string>
+			<key>name</key>
+			<string>keyword.control.source.operators</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>"</string>
+			<key>end</key>
+			<string>"</string>
+			<key>name</key>
+			<string>string.quoted.double.untitled</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.csdl</string>
+	<key>uuid</key>
+	<string>3f78c2ba-622c-4d6c-bfc2-77ce2b9726cf</string>
+</dict>
+</plist>
