@@ -1,148 +1,174 @@
 {
-	"name": "DataSift CSDL",
-	"scopeName": "source.csdl",
-	"fileTypes": ["csdl"],
-	"patterns": [
-		{
-			"match": "\binteraction\\.(content|geo|link|sample|source|title|type)\b",
-			"name": "variable.language.source.target",
-			"comment": "Interaction targets"
-		},
-		{
-			"match": "\binteraction\\.author\\.(avatar|id|link|name|username)\b",
-			"name": "variable.language.source.target",
-			"comment": "Interaction author targets"
-		},
-		{
-			"match": "\b2ch\\.(author\\.name|content|contenttype|link|thread|title|type)\b",
-			"name": "variable.language.source.target",
-			"comment": "2channel targets"
-		},
-		{
-			"match": "\bamazon\\.(author\\.link|author\\.name|content|contenttype|link|thread|title|type)\b",
-			"name": "variable.language.source.target",
-			"comment": "Amazon targets"
-		},
-		{
-			"match": "\bblog\\.(author\\.avatar|author\\.link|author\\.name|author\\.username|content|contenttype|domain|link|post\\.link|post\\.title|title|type)\b",
-			"name": "variable.language.source.target",
-			"comment": "Blog targets"
-		},
-		{
-			"match": "\bboard\\.(author\\.age|author\\.avatar|author\\.gender|author\\.link|author\\.location|author\\.name|author\\.registered|author\\.signature|author\\.username|content|contenttype|domain|link|thread|title|type)\b",
-			"name": "variable.language.source.target",
-			"comment": "Board targets"
-		},
-		{
-			"match": "\bdailymotion\\.(author\\.link|author\\.username|category|content|contenttype|duration|tags|thumbnail|title|videolink)\b",
-			"name": "variable.language.source.target",
-			"comment": "DailyMotion targets"
-		},
-		{
-			"match": "\bfacebook\\.(application|author\\.avatar|author\\.id|author\\.link|author\\.name|caption|description|likes\\.counts|likes\\.ids|likes\\.names|link|message|name|og\\.by|og\\.length|og\\.location|og\\.photos|og\\.title|og\\.type|source|to\\.ids|to\\.names|type)\b",
-			"name": "variable.language.source.target",
-			"comment": "Facebook targets"
-		},
-		{
-			"match": "\bflickr\\.(author\\.link|author\\.name|author\\.username|content|contenttype|link|thread|title|type)\b",
-			"name": "variable.language.source.target",
-			"comment": "Flickr targets"
-		},
-		{
-			"match": "\bimdb\\.(author\\.link|author\\.name|content|contenttype|link|thread|title|type)\b",
-			"name": "variable.language.source.target",
-			"comment": "IMDb targets"
-		},
-		{
-			"match": "\bnewscred\\.(article\\.authors|article\\.category|article\\.content|article\\.domain|article\\.title|article\\.topics|image\\.attribution\\.link|image\\.attribution\\.text|image\\.caption|source\\.domain|type|video\\.caption|video\\.category|video\\.domain|video\\.title|video\\.topics)\b",
-			"name": "variable.language.source.target",
-			"comment": "Newscred targets"
-		},
-		{
-			"match": "\breddit\\.(author\\.link|author\\.name|content|contenttype|link|thread|title|type)\b",
-			"name": "variable.language.source.target",
-			"comment": "Reddit targets"
-		},
-		{
-			"match": "\btopix\\.(author\\.location|author\\.name|content|contenttype|link|thread|title|type)\b",
-			"name": "variable.language.source.target",
-			"comment": "Topix targets"
-		},
-		{
-			"match": "\btwitter\\.(domains|geo|in_reply_to_screenname|links|mentions|source|status|text)\b",
-			"name": "variable.language.source.target",
-			"comment": "Twitter: Tweet targets"
-		},
-		{
-			"match": "\btwitter\\.user\\.(description|followers_count|follower_ratio|friends_count|id|lang|listed_count|location|name|profile_age|screen_name|statuses_count|time_zone|url|verified)\b",
-			"name": "variable.language.source.target",
-			"comment": "Twitter: User targets"
-		},
-		{
-			"match": "\btwitter\\.place\\.(attributes|country|country_code|full_name|name|place_type|url)\b",
-			"name": "variable.language.source.target",
-			"comment": "Twitter: Place targets"
-		},
-		{
-			"match": "\btwitter\\.retweet\\.(count|domains|elapsed|links|mentions|source|text)\b",
-			"name": "variable.language.source.target",
-			"comment": "Twitter: Retweet targets"
-		},
-		{
-			"match": "\btwitter\\.retweet\\.user\\.(description|followers_count|follower_ratio|friends_count|id|lang|listed_count|location|name|profile_age|screen_name|statuses_count|time_zone|url|verified)\b",
-			"name": "variable.language.source.target",
-			"comment": "Twitter: Retweet User targets"
-		},
-		{
-			"match": "\btwitter\\.retweeted\\.id\b",
-			"name": "variable.language.source.target",
-			"comment": "Twitter: Retweeted targets"
-		},
-		{
-			"match": "\btwitter\\.retweeted\\.place\\.(attributes|country|country_code|full_name|name|place_type|url)\b",
-			"name": "variable.language.source.target",
-			"comment": "Twitter: Retweeted Place targets"
-		},
-		{
-			"match": "\btwitter\\.retweeted\\.user\\.(description|followers_count|follower_ratio|friends_count|id|lang|listed_count|location|name|profile_age|screen_name|statuses_count|time_zone|url|verified)\b",
-			"name": "variable.language.source.target",
-			"comment": "Twitter: Retweeted User targets"
-		},
-		{
-			"match": "\bvideo\\.(author\\.avatar|author\\.link|author\\.name|author\\.username|category|commentslink|content|contenttype|domain|duration|tags|thumbnail|title|type|videolink)\b",
-			"name": "variable.language.source.target",
-			"comment": "Video targets"
-		},
-		{
-			"match": "\bwikipedia\\.(author\\.contributions|author\\.talk|author\\.username|body|categories|changetype|diff\\.changes\\.added|diff\\.changes\\.removed|diff\\.from|diff\\.to|externallinks|images|namespace|newlen|ns|oldlen|pageid|parentid|title)\b",
-			"name": "variable.language.source.target",
-			"comment": "Wikipedia targets"
-		},
-		{
-			"match": "\byoutube\\.(author\\.link|author\\.name|category|commentslink|content|contenttype|duration|tags|thumbnail|title|type|videolink)\b",
-			"name": "variable.language.source.target",
-			"comment": "YouTube targets"
-		},
-		{
-			"match": "\b(?i)(cs )?(contains|substr|contains_any|contains_near|\\=\\=|\\!\\=)\b",
-			"name": "keyword.operator.source.operators",
-			"comment": "Case sensitive Operators"
-		},
-		{
-			"match": "\b(?i)(exists|in|not|\\>|\\>\\=|\\<|\\<\\=|regex_partial|regex_exact|geo_box|geo_radius|geo_polygon|or|and)\b",
-			"name": "keyword.operator.source.operators",
-			"comment": "Operators"
-		},
-		{
-			"match": "\b(?i)(tag|return|stream)\b",
-			"name": "keyword.control.source.operators",
-			"comment": "Controls"
-		},
-		{
-			"name": "string.quoted.double.untitled",
-			"begin": "\"",
-			"end": "\""
-		}
-	],
-	"uuid": "3f78c2ba-622c-4d6c-bfc2-77ce2b9726cf"
+    "fileTypes": [
+        "csdl"
+    ], 
+    "name": "DataSift CSDL", 
+    "patterns": [
+        {
+            "comment": "Interaction targets", 
+            "match": "\\binteraction\\.(content|geo|link|sample|source|title|type)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Interaction author targets", 
+            "match": "\\binteraction\\.author\\.(avatar|id|link|name|username)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "2channel targets", 
+            "match": "\\b2ch\\.(author\\.name|content|contenttype|link|thread|title|type)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Amazon targets", 
+            "match": "\\bamazon\\.(author\\.link|author\\.name|content|contenttype|link|thread|title|type)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Blog targets", 
+            "match": "\\bblog\\.(author\\.avatar|author\\.link|author\\.name|author\\.username|content|contenttype|domain|link|post\\.link|post\\.title|title|type)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Board targets", 
+            "match": "\\bboard\\.(author\\.age|author\\.avatar|author\\.gender|author\\.link|author\\.location|author\\.name|author\\.registered|author\\.signature|author\\.username|content|contenttype|domain|link|thread|title|type)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "DailyMotion targets", 
+            "match": "\\bdailymotion\\.(author\\.link|author\\.username|category|content|contenttype|duration|tags|thumbnail|title|videolink)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Facebook targets", 
+            "match": "\\bfacebook\\.(application|author\\.avatar|author\\.id|author\\.link|author\\.name|caption|description|likes\\.counts|likes\\.ids|likes\\.names|link|message|name|og\\.by|og\\.length|og\\.location|og\\.photos|og\\.title|og\\.type|source|to\\.ids|to\\.names|type)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Flickr targets", 
+            "match": "\\bflickr\\.(author\\.link|author\\.name|author\\.username|content|contenttype|link|thread|title|type)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "IMDb targets", 
+            "match": "\\bimdb\\.(author\\.link|author\\.name|content|contenttype|link|thread|title|type)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Newscred targets", 
+            "match": "\\bnewscred\\.(article\\.authors|article\\.category|article\\.content|article\\.domain|article\\.title|article\\.topics|image\\.attribution\\.link|image\\.attribution\\.text|image\\.caption|source\\.domain|type|video\\.caption|video\\.category|video\\.domain|video\\.title|video\\.topics)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Reddit targets", 
+            "match": "\\breddit\\.(author\\.link|author\\.name|content|contenttype|link|thread|title|type)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Topix targets", 
+            "match": "\\btopix\\.(author\\.location|author\\.name|content|contenttype|link|thread|title|type)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Twitter: Tweet targets", 
+            "match": "\\btwitter\\.(domains|geo|in_reply_to_screenname|links|mentions|source|status|text)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Twitter: User targets", 
+            "match": "\\btwitter\\.user\\.(description|followers_count|follower_ratio|friends_count|id|lang|listed_count|location|name|profile_age|screen_name|statuses_count|time_zone|url|verified)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Twitter: Place targets", 
+            "match": "\\btwitter\\.place\\.(attributes|country|country_code|full_name|name|place_type|url)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Twitter: Retweet targets", 
+            "match": "\\btwitter\\.retweet\\.(count|domains|elapsed|links|mentions|source|text)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Twitter: Retweet User targets", 
+            "match": "\\btwitter\\.retweet\\.user\\.(description|followers_count|follower_ratio|friends_count|id|lang|listed_count|location|name|profile_age|screen_name|statuses_count|time_zone|url|verified)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Twitter: Retweeted targets", 
+            "match": "\\btwitter\\.retweeted\\.id\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Twitter: Retweeted Place targets", 
+            "match": "\\btwitter\\.retweeted\\.place\\.(attributes|country|country_code|full_name|name|place_type|url)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Twitter: Retweeted User targets", 
+            "match": "\\btwitter\\.retweeted\\.user\\.(description|followers_count|follower_ratio|friends_count|id|lang|listed_count|location|name|profile_age|screen_name|statuses_count|time_zone|url|verified)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Video targets", 
+            "match": "\\bvideo\\.(author\\.avatar|author\\.link|author\\.name|author\\.username|category|commentslink|content|contenttype|domain|duration|tags|thumbnail|title|type|videolink)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Wikipedia targets", 
+            "match": "\\bwikipedia\\.(author\\.contributions|author\\.talk|author\\.username|body|categories|changetype|diff\\.changes\\.added|diff\\.changes\\.removed|diff\\.from|diff\\.to|externallinks|images|namespace|newlen|ns|oldlen|pageid|parentid|title)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "YouTube targets", 
+            "match": "\\byoutube\\.(author\\.link|author\\.name|category|commentslink|content|contenttype|duration|tags|thumbnail|title|type|videolink)\\b", 
+            "name": "variable.language.source.target"
+        }, 
+        {
+            "comment": "Case sensitive Operators", 
+            "match": "\\b(?i)(cs )?(contains|substr|contains_any|contains_near)\\b", 
+            "name": "keyword.operator.source.operators"
+        }, 
+        {
+            "comment": "Operators", 
+            "match": "\\b(?i)(exists|not|in|regex_partial|regex_exact|geo_box|geo_radius|geo_polygon|or|and)\\b", 
+            "name": "keyword.operator.source.operators"
+        }, 
+        {
+            "comment": "Operators", 
+            "match": "(<|>|<=|>=|<>|==|\\!=)", 
+            "name": "keyword.operator.source.operators"
+        }, 
+        {
+            "comment": "Controls", 
+            "match": "\\b(?i)(tag|return|stream)\\b", 
+            "name": "keyword.control.source.operators"
+        }, 
+        {
+            "begin": "/\\*", 
+            "captures": {
+                "0": {
+                    "name": "punctuation.definition.comment"
+                }
+            }, 
+            "end": "\\*/", 
+            "name": "comment.block"
+        }, 
+        {
+            "captures": {
+                "1": {
+                    "name": "punctuation.definition.comment"
+                }
+            }, 
+            "match": "(//).*?($\\n?|(?=\\?>))", 
+            "name": "comment.line.double-slash"
+        }, 
+        {
+            "begin": "\"", 
+            "end": "\"", 
+            "name": "string.quoted.double.untitled"
+        }
+    ], 
+    "scopeName": "source.csdl", 
+    "uuid": "3f78c2ba-622c-4d6c-bfc2-77ce2b9726cf"
 }
