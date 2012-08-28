@@ -228,6 +228,36 @@
 		</dict>
 		<dict>
 			<key>begin</key>
+			<string>/\*</string>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>\*/</string>
+			<key>name</key>
+			<string>comment.block</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(//).*?($\n?|(?=\?&gt;))</string>
+			<key>name</key>
+			<string>comment.line.double-slash</string>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>"</string>
 			<key>end</key>
 			<string>"</string>
