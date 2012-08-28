@@ -1,7 +1,7 @@
 datasift-sublime-text
 =====================
 
-DataSift Sublime Text Plugin to validate and compile CSDL, and to consume a sample set of interactions.
+DataSift Sublime Text Plugin to validate and compile CSDL, and to consume a sample set of interactions. It also includes syntax highlighting for CSDL.
 
 Installation
 ------------
@@ -23,6 +23,8 @@ To set your API username and key, add them to your user preferences. To change t
 
 Usage
 -----
+
+The syntax highlighting will automatically active for files with the extension .csdl, alternatively you can activate it by selecting View -> Syntax -> DataSift CSDL.
 
 To validate CSDL code just hit Cmd + Shift + V (Ctrl + Shift + V on Windows / Linux) or alternatively go to Tools -> DataSift -> Validate.
 
