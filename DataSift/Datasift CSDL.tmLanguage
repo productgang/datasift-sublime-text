@@ -206,7 +206,7 @@
 			<key>comment</key>
 			<string>Case sensitive Operators</string>
 			<key>match</key>
-			<string>\b(?i)(cs )?(contains|substr|contains_any|contains_near|\=\=|\!\=)\b</string>
+			<string>\b(?i)(cs )?(contains|substr|contains_any|contains_near)\b</string>
 			<key>name</key>
 			<string>keyword.operator.source.operators</string>
 		</dict>
@@ -214,7 +214,15 @@
 			<key>comment</key>
 			<string>Operators</string>
 			<key>match</key>
-			<string>\b(?i)(exists|not|in|\&gt;|\&gt;\=|\&lt;|\&lt;\=|regex_partial|regex_exact|geo_box|geo_radius|geo_polygon|or|and)\b</string>
+			<string>\b(?i)(exists|not|in|regex_partial|regex_exact|geo_box|geo_radius|geo_polygon|or|and)\b</string>
+			<key>name</key>
+			<string>keyword.operator.source.operators</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Operators</string>
+			<key>match</key>
+			<string>(&lt;|&gt;|&lt;=|&gt;=|&lt;&gt;|==|\!=)</string>
 			<key>name</key>
 			<string>keyword.operator.source.operators</string>
 		</dict>
