@@ -206,7 +206,7 @@
 			<key>comment</key>
 			<string>Case sensitive Operators</string>
 			<key>match</key>
-			<string>\b(?i)(cs )?(contains|substr|contains_any|contains_near)\b</string>
+			<string>\b(?i)(cs )?(contains|substr|contains_any|contains_near|any|contains_substr|near)\b</string>
 			<key>name</key>
 			<string>keyword.operator.source.operators</string>
 		</dict>

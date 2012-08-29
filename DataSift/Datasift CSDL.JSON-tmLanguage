@@ -126,7 +126,7 @@
         }, 
         {
             "comment": "Case sensitive Operators", 
-            "match": "\\b(?i)(cs )?(contains|substr|contains_any|contains_near)\\b", 
+            "match": "\\b(?i)(cs )?(contains|substr|contains_any|contains_near|any|contains_substr|near)\\b", 
             "name": "keyword.operator.source.operators"
         }, 
         {
