@@ -6,7 +6,7 @@ DataSift Sublime Text Plugin to validate and compile CSDL, and to consume a samp
 Installation
 ------------
 
-Just copy the DataSift directory into your Sublime Text packages directory located in ~/.config/sublime-text-2/Packages/.
+Just copy the `DataSift` directory found inside the `datasift-sublime-text` directory into your Sublime Text packages directory located in `~/.config/sublime-text-2/Packages/`.
 
 To set your API username and key, add them to your user preferences. To change the number of interactions retrieved by the Consume Sample command set that in your user preferences.
 
