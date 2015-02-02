@@ -14,7 +14,7 @@
 			<key>comment</key>
 			<string>Interaction targets</string>
 			<key>match</key>
-			<string>\binteraction\.(content|geo|link|sample|source|title|type)\b</string>
+			<string>\binteraction\.(content|geo|link|sample|source|title|type|mentions)\b</string>
 			<key>name</key>
 			<string>variable.language.source.target</string>
 		</dict>
