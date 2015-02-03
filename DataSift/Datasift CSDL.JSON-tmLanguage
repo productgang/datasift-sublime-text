@@ -6,7 +6,7 @@
     "patterns": [
         {
             "comment": "Interaction targets", 
-            "match": "\\binteraction\\.(content|geo|link|sample|source|title|type)\\b", 
+            "match": "\\binteraction\\.(content|geo|link|sample|source|title|type|mentions)\\b", 
             "name": "variable.language.source.target"
         }, 
         {
